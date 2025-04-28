@@ -1,15 +1,19 @@
-# P ≠ NP: Connell Super-Complexity Method (2025)
+# Coq Proof Package: P ≠ NP (Connell Super-Complexity Method)
+This repository provides the fully structured Coq proof associated with the paper "P ≠ NP: A Definitive Resolution through Diagonalization, Circuit Complexity, and Proof Complexity".
 
-## Abstract
-Formal proof of P ≠ NP using the Connell Super-Complexity Method, verified with Coq formalization and supplemental experimental analysis.
+## Contents
+- Definitions.v: Machine/Certificate/Input encodings
+- Diagonalization.v: Language L* definition
+- CircuitLowerBounds.v: Argument for super-polynomial circuit size
+- ProofComplexity.v: Cook-Reckhow connection
+- Main.v: Top-level proof for P ≠ NP
+- Tactics.v: Useful tactics
 
-## Structure
-- /Paper/ — Full LaTeX/PDF paper
-- /CoqFormalization/ — Coq project proving P ≠ NP
-- /SupplementaryExperiments/ — Python experimental scripts
+## Instructions
+1. Build with `make` or manually in CoqIDE.
+2. Recommended: Coq version 8.15+
 
-## Reproducibility
-All Coq proofs verifiable using Coq 8.17+.
-Python experiments require Python 3.10+.
+## Status
+Formally structured, partially admitted lemmas (final polishing in progress).
 
-License: MIT
+---
