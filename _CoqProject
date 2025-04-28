@@ -1,0 +1,7 @@
+-Q src CoqProof
+src/Definitions.v
+src/Diagonalization.v
+src/CircuitLowerBounds.v
+src/ProofComplexity.v
+src/Tactics.v
+src/Main.v
