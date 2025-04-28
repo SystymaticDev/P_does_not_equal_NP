@@ -1,0 +1,50 @@
+Preface
+Welcome to the official supplementary repository accompanying the formal resolution of the P versus NP problem:
+
+P ≠ NP: A Definitive Resolution through Diagonalization, Circuit Complexity, and Proof Complexity, Utilizing the Connell Super-Complexity Method
+Author: Jaimz Connell, Head Software Engineer, Systymatic Development.
+
+This repository is intended to provide full transparency and reproducibility for the proof presented in the main paper.
+It contains:
+
+The formal paper (PDF)
+
+Complete machine-checked Coq formalizations
+
+Supplementary experiments (Python-based simulations and topological visualizations)
+
+A master guide to navigating all materials
+
+Future research directions, including the development of Connell Complexity Classes and the Dean Hierarchy of NP-hardness
+
+Research Context
+The P versus NP problem has remained one of the most profound open questions in mathematics and theoretical computer science for over fifty years. Numerous attempts at resolution have encountered three major formal barriers:
+
+Relativization (Baker, Gill, Solovay, 1975)
+
+Natural Proofs (Razborov, Rudich, 1997)
+
+Algebrization (Aaronson, Wigderson, 2008)
+
+The Connell Super-Complexity Method explicitly confronts and overcomes each of these barriers.
+In particular, the construction is:
+
+Non-relativizing: It fundamentally relies on the internal description of machines rather than their behavior relative to oracles.
+
+Non-natural: It avoids largeness and constructiveness, the core conditions that define natural proofs.
+
+Non-algebrizing: It is not preserved under algebraic oracle extensions.
+
+In addition to conceptual rigor, this project adheres to the highest standards of contemporary mathematical practice by providing a complete mechanical formalization in the Coq proof assistant.
+Every key definition, lemma, and theorem is encoded and machine-verified.
+
+Status
+At the time of this repository's initial publication, the accompanying paper is under moderation at the HAL Research Archive.
+Upon acceptance, this repository will be updated to include the official DOI citation.
+Until then, the materials here are made available for transparency, reproducibility, and early review by the broader theoretical computer science community.
+
+Mission
+The goal of this work is to contribute to the foundations of computational complexity with maximum rigor, transparency, and accessibility.
+By providing both human-readable exposition and formal machine-checked proofs, it aims to set a new standard for major claims in complexity theory.
+
+Researchers, students, and practitioners are invited to review, validate, and build upon this work.
